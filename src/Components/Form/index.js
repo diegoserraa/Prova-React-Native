@@ -67,11 +67,11 @@ export default function Form() {
                 keyboardType="numeric"
                 value={numero}
                 style={estilos.input} />
-                <Text style={estilos.label}>Informe a Descricao: </Text>
+                <Text style={estilos.label}>Informe a Descrição: </Text>
                 <TextInput
                 onChangeText={setDescricao} 
                 value={descricao}
-                style={estilos.input} />
+                style={estilos.input2} />
               
                 <TouchableOpacity style={estilos.botao} 
                 onPress={() => validar()} >
@@ -93,10 +93,7 @@ export default function Form() {
                 />
                   
             </Modal> 
-            <View>
-            <Text> Obrigrado pela notificação</Text>
-                 
-            </View>
+        
 
         </View>
     );

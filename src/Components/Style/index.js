@@ -8,9 +8,9 @@ export const estilos = StyleSheet.create({
     },
     form:{
         padding: 10,
-        borderRadius: 10,
-        backgroundColor:"#8DAAE0",
-        marginTop: 20,
+    
+        backgroundColor:"#000080",
+      
         width: "100%",
         height:"100%"    
     },
@@ -39,9 +39,8 @@ export const estilos = StyleSheet.create({
         
     },
     botao:{
-        marginTop: 10,
-        backgroundColor: "black",
-        borderRadius: 9,
+        backgroundColor: "#20B2AA",
+        borderRadius: 4,
         height: 40,
         marginLeft:"10%",
         marginRight:"10%"
@@ -53,6 +52,14 @@ export const estilos = StyleSheet.create({
 
     },
  
-
+    input2:{
+        backgroundColor: "#999",
+        borderRadius: 9,
+        height: 70,
+        marginBottom:"10%",
+        marginLeft:"4%",
+        marginRight:"4%"
+        
+    },
  
 })

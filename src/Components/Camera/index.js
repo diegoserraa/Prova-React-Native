@@ -105,7 +105,7 @@ export default function TakePicture(props) {
             <Image style={styles.icon} source={require("../../../assets/v1.png")}/>
             </TouchableOpacity>
             <View>
-            <Text style={styles.mensagem}> Obrigrado pela notificação</Text>
+            <Text style={styles.mensagem}> Obrigado pela notificação</Text>
                  
             </View>
           </View>
@@ -195,7 +195,10 @@ const styles = StyleSheet.create({
     borderRadius: 50,
   },
   mensagem:{
-    backgroundColor:"#fff"
+    backgroundColor:"#fff",
+  fontSize:30,
+    height: 50,
+
 
   }
 });
